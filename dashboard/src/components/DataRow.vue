@@ -18,6 +18,7 @@ const props = defineProps<{
   data: Data[]
   server: string | null
   meta_name: string
+  showRemoveButton?: boolean
 }>()
 
 const emit = defineEmits(['remove'])
