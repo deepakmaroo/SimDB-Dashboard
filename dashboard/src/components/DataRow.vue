@@ -133,7 +133,7 @@ function handleRemove() {
         <template v-else> No data available. </template>
       </v-container>
     </td>
-    <td v-if="showRemoveButton !== false" style="width: 1em; text-align: center;">
+    <td style="width: 1em; text-align: center;">
       <v-btn
         icon
         size="x-small"

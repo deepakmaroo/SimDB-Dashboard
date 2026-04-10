@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineModel, ref } from 'vue'
+import { ref } from 'vue'
 import { config } from '../config'
 import { VTextField } from 'vuetify/components'
 

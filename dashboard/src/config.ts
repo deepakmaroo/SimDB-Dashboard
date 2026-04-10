@@ -11,6 +11,12 @@ const config: Readonly<{ [key: string]: any }> = {
     //'https://simdb.iter.org/itpa/api': { 'requiresAuth': false },
   },
   defaultServer: 'https://simdb.iter.org/scenarios/api',
+  // IBEX IDS Explorer backend configuration
+  ibexBackend: {
+    host: 'localhost',
+    port: 6060,
+    protocol: 'http'
+  },
   searchFields: ['alias', 'code.name', 'global_quantities.ip.value', 'global_quantities.b0.value', 'heating_current_drive.power_additional.value', 'description'],
   searchOutputFields: [
     'code.name',
